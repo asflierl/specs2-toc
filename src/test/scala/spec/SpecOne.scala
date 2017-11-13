@@ -3,11 +3,13 @@ package spec
 import org.specs2.Specification
 import sut.SUT
 
-class SpecOne extends Specification { def is = s2"""
+object SpecOne extends Specification { def is = s2"""
 
   This is a specification.
 
   Something should equal 42. $e1
+
+  ${link(SpecThree)}
 
 """
 

@@ -3,7 +3,7 @@ package spec
 import org.specs2.Specification
 import sut.SUT
 
-class SpecTwo extends Specification { def is = s2"""
+object SpecTwo extends Specification { def is = s2"""
 
   This is another specification.
 
